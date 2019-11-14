@@ -21,7 +21,7 @@ jobs:
     - name: Publish Docker
       uses: elgohr/Publish-Docker-Github-Action@2.4
       with:
-        name: eXpire163/cicddemo
+        name: expire163/cicddemo
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
 
