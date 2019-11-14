@@ -9,7 +9,7 @@ class HomeTest {
     @Test
     void welcomeHome() {
         Home home = new Home();
-        assert(home.welcomeHome().contains("home"));
+        assert(home.welcomeHome().contains("cicd"));
 
     }
 
