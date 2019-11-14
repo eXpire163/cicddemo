@@ -7,8 +7,8 @@ on:
     - release/*
 
 jobs:
-
-  build:
+  
+  publish:
 
     runs-on: ubuntu-latest
 
