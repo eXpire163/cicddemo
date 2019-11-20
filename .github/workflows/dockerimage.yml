@@ -28,11 +28,5 @@ jobs:
         name: expire163/cicddemo
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
-    - name: Publich to github packages
-      run: |
-        # docker login docker.pkg.github.com
-        docker tag my-image-name:latest docker.pkg.github.com/eXpire163/repo/cicddemo:1.0
-        docker push docker.pkg.github.com/eXpire163/repo/cicddemo:1.0.0
-
               
 
