@@ -1,5 +1,8 @@
 # cicddemo
 
+![Image State](https://github.com/eXpire163/cicddemo/workflows/Docker%20Image%20CI/badge.svg)
+![last pr](https://github.com/eXpire163/cicddemo/workflows/Java%20CI/badge.svg)
+
 First thing i head to learn about "actions" - nothing - they just work!!!
 
 
