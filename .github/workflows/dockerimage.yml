@@ -23,7 +23,7 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag my-image-name:latest
     - name: Publish Docker
-      uses: elgohr/Publish-Docker-Github-Action@2.4
+      uses: elgohr/Publish-Docker-Github-Action@v5
       with:
         name: expire163/cicddemo
         username: ${{ secrets.DOCKER_USERNAME }}
