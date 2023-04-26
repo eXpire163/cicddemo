@@ -1,7 +1,7 @@
 # cicddemo
 
-![Image State](https://github.com/eXpire163/cicddemo/workflows/Docker%20Image%20CI/badge.svg)
-![last pr](https://github.com/eXpire163/cicddemo/workflows/Java%20CI/badge.svg)
+[![Docker Image CI](https://github.com/eXpire163/cicddemo/actions/workflows/dockerimage.yml/badge.svg)](https://github.com/eXpire163/cicddemo/actions/workflows/dockerimage.yml)
+[![Java CI](https://github.com/eXpire163/cicddemo/actions/workflows/maven.yml/badge.svg)](https://github.com/eXpire163/cicddemo/actions/workflows/maven.yml)
 
 First thing i head to learn about "actions" - nothing - they just work!!!
 
